@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F03CB77C2DC107FA005A170A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0FEDD6B2DA8E0CE006EF0D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0FEDD722DA8E0CE006EF0D8;
+			remoteInfo = "Fetch Recipe Browser";
+		};
+		F0FEDD852DA8E0CF006EF0D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0FEDD6B2DA8E0CE006EF0D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0FEDD722DA8E0CE006EF0D8;
+			remoteInfo = "Fetch Recipe Browser";
+		};
+		F0FEDD8F2DA8E0CF006EF0D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0FEDD6B2DA8E0CE006EF0D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0FEDD722DA8E0CE006EF0D8;
+			remoteInfo = "Fetch Recipe Browser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F03CB7782DC107FA005A170A /* Fetch Recipe Browser Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch Recipe Browser Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0FEDD732DA8E0CE006EF0D8 /* Fetch Recipe Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch Recipe Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0FEDD842DA8E0CF006EF0D8 /* Fetch Recipe BrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch Recipe BrowserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0FEDD8E2DA8E0CF006EF0D8 /* Fetch Recipe BrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch Recipe BrowserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F03CB7792DC107FA005A170A /* Fetch Recipe Browser Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fetch Recipe Browser Tests";
+			sourceTree = "<group>";
+		};
+		F0FEDD752DA8E0CE006EF0D8 /* Fetch Recipe Browser */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fetch Recipe Browser";
+			sourceTree = "<group>";
+		};
+		F0FEDD872DA8E0CF006EF0D8 /* Fetch Recipe BrowserTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fetch Recipe BrowserTests";
+			sourceTree = "<group>";
+		};
+		F0FEDD912DA8E0CF006EF0D8 /* Fetch Recipe BrowserUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fetch Recipe BrowserUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F03CB7752DC107FA005A170A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FEDD702DA8E0CE006EF0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FEDD812DA8E0CF006EF0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FEDD8B2DA8E0CF006EF0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0FEDD6A2DA8E0CE006EF0D8 = {
+			isa = PBXGroup;
+			children = (
+				F0FEDD752DA8E0CE006EF0D8 /* Fetch Recipe Browser */,
+				F0FEDD872DA8E0CF006EF0D8 /* Fetch Recipe BrowserTests */,
+				F0FEDD912DA8E0CF006EF0D8 /* Fetch Recipe BrowserUITests */,
+				F03CB7792DC107FA005A170A /* Fetch Recipe Browser Tests */,
+				F0FEDD742DA8E0CE006EF0D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0FEDD742DA8E0CE006EF0D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0FEDD732DA8E0CE006EF0D8 /* Fetch Recipe Browser.app */,
+				F0FEDD842DA8E0CF006EF0D8 /* Fetch Recipe BrowserTests.xctest */,
+				F0FEDD8E2DA8E0CF006EF0D8 /* Fetch Recipe BrowserUITests.xctest */,
+				F03CB7782DC107FA005A170A /* Fetch Recipe Browser Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F03CB7772DC107FA005A170A /* Fetch Recipe Browser Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F03CB7802DC107FA005A170A /* Build configuration list for PBXNativeTarget "Fetch Recipe Browser Tests" */;
+			buildPhases = (
+				F03CB7742DC107FA005A170A /* Sources */,
+				F03CB7752DC107FA005A170A /* Frameworks */,
+				F03CB7762DC107FA005A170A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F03CB77D2DC107FA005A170A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F03CB7792DC107FA005A170A /* Fetch Recipe Browser Tests */,
+			);
+			name = "Fetch Recipe Browser Tests";
+			packageProductDependencies = (
+			);
+			productName = "Fetch Recipe Browser Tests";
+			productReference = F03CB7782DC107FA005A170A /* Fetch Recipe Browser Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0FEDD722DA8E0CE006EF0D8 /* Fetch Recipe Browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0FEDD982DA8E0CF006EF0D8 /* Build configuration list for PBXNativeTarget "Fetch Recipe Browser" */;
+			buildPhases = (
+				F0FEDD6F2DA8E0CE006EF0D8 /* Sources */,
+				F0FEDD702DA8E0CE006EF0D8 /* Frameworks */,
+				F0FEDD712DA8E0CE006EF0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F0FEDD752DA8E0CE006EF0D8 /* Fetch Recipe Browser */,
+			);
+			name = "Fetch Recipe Browser";
+			packageProductDependencies = (
+			);
+			productName = "Fetch Recipe Browser";
+			productReference = F0FEDD732DA8E0CE006EF0D8 /* Fetch Recipe Browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0FEDD832DA8E0CF006EF0D8 /* Fetch Recipe BrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0FEDD9B2DA8E0CF006EF0D8 /* Build configuration list for PBXNativeTarget "Fetch Recipe BrowserTests" */;
+			buildPhases = (
+				F0FEDD802DA8E0CF006EF0D8 /* Sources */,
+				F0FEDD812DA8E0CF006EF0D8 /* Frameworks */,
+				F0FEDD822DA8E0CF006EF0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0FEDD862DA8E0CF006EF0D8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F0FEDD872DA8E0CF006EF0D8 /* Fetch Recipe BrowserTests */,
+			);
+			name = "Fetch Recipe BrowserTests";
+			packageProductDependencies = (
+			);
+			productName = "Fetch Recipe BrowserTests";
+			productReference = F0FEDD842DA8E0CF006EF0D8 /* Fetch Recipe BrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0FEDD8D2DA8E0CF006EF0D8 /* Fetch Recipe BrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0FEDD9E2DA8E0CF006EF0D8 /* Build configuration list for PBXNativeTarget "Fetch Recipe BrowserUITests" */;
+			buildPhases = (
+				F0FEDD8A2DA8E0CF006EF0D8 /* Sources */,
+				F0FEDD8B2DA8E0CF006EF0D8 /* Frameworks */,
+				F0FEDD8C2DA8E0CF006EF0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0FEDD902DA8E0CF006EF0D8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F0FEDD912DA8E0CF006EF0D8 /* Fetch Recipe BrowserUITests */,
+			);
+			name = "Fetch Recipe BrowserUITests";
+			packageProductDependencies = (
+			);
+			productName = "Fetch Recipe BrowserUITests";
+			productReference = F0FEDD8E2DA8E0CF006EF0D8 /* Fetch Recipe BrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0FEDD6B2DA8E0CE006EF0D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F03CB7772DC107FA005A170A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F0FEDD722DA8E0CE006EF0D8;
+					};
+					F0FEDD722DA8E0CE006EF0D8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F0FEDD832DA8E0CF006EF0D8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F0FEDD722DA8E0CE006EF0D8;
+					};
+					F0FEDD8D2DA8E0CF006EF0D8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F0FEDD722DA8E0CE006EF0D8;
+					};
+				};
+			};
+			buildConfigurationList = F0FEDD6E2DA8E0CE006EF0D8 /* Build configuration list for PBXProject "Fetch Recipe Browser" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0FEDD6A2DA8E0CE006EF0D8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F0FEDD742DA8E0CE006EF0D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0FEDD722DA8E0CE006EF0D8 /* Fetch Recipe Browser */,
+				F0FEDD832DA8E0CF006EF0D8 /* Fetch Recipe BrowserTests */,
+				F0FEDD8D2DA8E0CF006EF0D8 /* Fetch Recipe BrowserUITests */,
+				F03CB7772DC107FA005A170A /* Fetch Recipe Browser Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F03CB7762DC107FA005A170A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FEDD712DA8E0CE006EF0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FEDD822DA8E0CF006EF0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FEDD8C2DA8E0CF006EF0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F03CB7742DC107FA005A170A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FEDD6F2DA8E0CE006EF0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FEDD802DA8E0CF006EF0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FEDD8A2DA8E0CF006EF0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F03CB77D2DC107FA005A170A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0FEDD722DA8E0CE006EF0D8 /* Fetch Recipe Browser */;
+			targetProxy = F03CB77C2DC107FA005A170A /* PBXContainerItemProxy */;
+		};
+		F0FEDD862DA8E0CF006EF0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0FEDD722DA8E0CE006EF0D8 /* Fetch Recipe Browser */;
+			targetProxy = F0FEDD852DA8E0CF006EF0D8 /* PBXContainerItemProxy */;
+		};
+		F0FEDD902DA8E0CF006EF0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0FEDD722DA8E0CE006EF0D8 /* Fetch Recipe Browser */;
+			targetProxy = F0FEDD8F2DA8E0CF006EF0D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F03CB77E2DC107FA005A170A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TKB.Fetch-Recipe-Browser-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Recipe Browser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fetch Recipe Browser";
+			};
+			name = Debug;
+		};
+		F03CB77F2DC107FA005A170A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TKB.Fetch-Recipe-Browser-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Recipe Browser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fetch Recipe Browser";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0FEDD962DA8E0CF006EF0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0FEDD972DA8E0CF006EF0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F0FEDD992DA8E0CF006EF0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fetch Recipe Browser/Fetch_Recipe_Browser.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fetch Recipe Browser/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TKB.Fetch-Recipe-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		F0FEDD9A2DA8E0CF006EF0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fetch Recipe Browser/Fetch_Recipe_Browser.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fetch Recipe Browser/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TKB.Fetch-Recipe-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		F0FEDD9C2DA8E0CF006EF0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TKB.Fetch-Recipe-BrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Recipe Browser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fetch Recipe Browser";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		F0FEDD9D2DA8E0CF006EF0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TKB.Fetch-Recipe-BrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Recipe Browser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fetch Recipe Browser";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		F0FEDD9F2DA8E0CF006EF0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TKB.Fetch-Recipe-BrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Fetch Recipe Browser";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		F0FEDDA02DA8E0CF006EF0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TKB.Fetch-Recipe-BrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Fetch Recipe Browser";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F03CB7802DC107FA005A170A /* Build configuration list for PBXNativeTarget "Fetch Recipe Browser Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03CB77E2DC107FA005A170A /* Debug */,
+				F03CB77F2DC107FA005A170A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0FEDD6E2DA8E0CE006EF0D8 /* Build configuration list for PBXProject "Fetch Recipe Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0FEDD962DA8E0CF006EF0D8 /* Debug */,
+				F0FEDD972DA8E0CF006EF0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0FEDD982DA8E0CF006EF0D8 /* Build configuration list for PBXNativeTarget "Fetch Recipe Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0FEDD992DA8E0CF006EF0D8 /* Debug */,
+				F0FEDD9A2DA8E0CF006EF0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0FEDD9B2DA8E0CF006EF0D8 /* Build configuration list for PBXNativeTarget "Fetch Recipe BrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0FEDD9C2DA8E0CF006EF0D8 /* Debug */,
+				F0FEDD9D2DA8E0CF006EF0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0FEDD9E2DA8E0CF006EF0D8 /* Build configuration list for PBXNativeTarget "Fetch Recipe BrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0FEDD9F2DA8E0CF006EF0D8 /* Debug */,
+				F0FEDDA02DA8E0CF006EF0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0FEDD6B2DA8E0CE006EF0D8 /* Project object */;
+}
