@@ -11,7 +11,7 @@ Recipe List
 
 Searching Recipes
 
-<img src="https://github.com/TheKyleB/Fetch-Recipe-Browser/blob/main/Recipe%20List.png" alt="Searching Recipes" width="200"/>
+<img src="https://github.com/TheKyleB/Fetch-Recipe-Browser/blob/main/Recipe%20List%20Search.png" alt="Searching Recipes" width="200"/>
 
 
 Filtering Recipes
