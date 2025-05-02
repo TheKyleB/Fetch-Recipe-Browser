@@ -39,7 +39,9 @@ The development timeline with the time not spent working on it took roughly a fu
 
 ### Trade-offs and Decisions:
 As mentioned in the focus area section, I spent more time on the ability to filter/search for recipes than the visual layout of the application. Also I decided to have a "second screen" (which was just another view in a ZStack to be displayed on top of the initial screen) to give a detailed view of the selected cuisine, however there really isn't that much information that needs to be displayed so it feels kind of empty, however if more information were to ever be added to the JSON data, there is space ready to accommodate it. 
-  
+
+To save time, I did not completely make each individual view its own class, this was also due to my inexperience with SwiftUI but I believe for better reusability it would help making it more modular by splitting these views to their own classes.
+
 ### Weakest Part of the Project:
 I think the weaksest part of my project is the style of the application. This was my first time using SwiftUI for development and so I was not very familiar with the different stylistic options avaliable for me when creating buttons, text, images, and other visual aspects of the app. I don't think it looks bad but if I was more familiar with SwiftUI I believe I could have made it look more cohesive and cleaner.
 
