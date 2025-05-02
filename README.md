@@ -5,19 +5,29 @@ FetchRecipeBrowser - Kyle Brownell
 Here are screenshots of my application in action:
 
 Recipe List
-![alt text](https://github.com/TheKyleB/Fetch-Recipe-Browser/blob/main/Recipe%20List.png)
+
+<img src="https://github.com/TheKyleB/Fetch-Recipe-Browser/blob/main/Recipe%20List.png" alt="Recipe List" width="200"/>
+
 
 Searching Recipes
-![alt text](https://github.com/TheKyleB/Fetch-Recipe-Browser/blob/main/Recipe%20List%20Search.png)
+
+<img src="https://github.com/TheKyleB/Fetch-Recipe-Browser/blob/main/Recipe%20List.png" alt="Searching Recipes" width="200"/>
+
 
 Filtering Recipes
-![alt text](https://github.com/TheKyleB/Fetch-Recipe-Browser/blob/main/Recipe%20List%20Filtering.png)
+
+<img src="https://github.com/TheKyleB/Fetch-Recipe-Browser/blob/main/Recipe%20List%20Filtering.png" alt="Filtering Recipes" width="200"/>
+
 
 Recipe Details
-![alt text](https://github.com/TheKyleB/Fetch-Recipe-Browser/blob/main/Recipe%20Details.png)
+
+<img src="https://github.com/TheKyleB/Fetch-Recipe-Browser/blob/main/Recipe%20Details.png" alt="Recipe Details" width="200"/>
+
 
 Empty Search
-![alt text](https://github.com/TheKyleB/Fetch-Recipe-Browser/blob/main/Recipe%20List%20Empty.png)
+
+<img src="https://github.com/TheKyleB/Fetch-Recipe-Browser/blob/main/Recipe%20List%20Empty.png" alt="Empty Search" width="200"/>
+
 
 ### Focus Areas:
 The largest focus I had for the application was having the user be able to filter the recipes. I added a search bar, a sort by country/name toggle, and a way to filter out cuisines. I felt like with the limited information provided by the JSON data, the most important part was helping the user find the recipes they want to try making the most.
